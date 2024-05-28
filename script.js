@@ -1,9 +1,19 @@
 document.getElementById('logWater').addEventListener('click', () => logActivity("Water"));
-document.getElementById('logFood').addEventListener('click', () => logActivity("Food"));
-document.getElementById('logBathroom').addEventListener('click', () => logActivity("Bathroom"));
+document.getElementById('logMeal').addEventListener('click', () => logActivity("Meal"));
+document.getElementById('logSnack').addEventListener('click', () => logActivity("Snack"));
 document.getElementById('logPlaytime').addEventListener('click', () => logActivity("Playtime"));
 document.getElementById('logSmoke').addEventListener('click', () => logActivity("Smoke"));
 document.getElementById('logSex').addEventListener('click', () => logActivity("Sex"));
+document.getElementById('logWork').addEventListener('click', () => logActivity("Work"));
+document.getElementById('logRelax').addEventListener('click', () => logActivity("Relax"));
+document.getElementById('logPee').addEventListener('click', () => logActivity("Pee"));
+document.getElementById('logPoo').addEventListener('click', () => logActivity("Poo"));
+document.getElementById('logArgue').addEventListener('click', () => logActivity("Argue"));
+document.getElementById('logRosin').addEventListener('click', () => logActivity("Rosin"));
+document.getElementById('logWalk').addEventListener('click', () => logActivity("Walk"));
+document.getElementById('logShop').addEventListener('click', () => logActivity("Shop"));
+document.getElementById('logOffice').addEventListener('click', () => logActivity("Office"));
+document.getElementById('logJO').addEventListener('click', () => logActivity("JO"));
 document.getElementById('undoButton').addEventListener('click', undoLastEntry);
 
 function logActivity(type) {
